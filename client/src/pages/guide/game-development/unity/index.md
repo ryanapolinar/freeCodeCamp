@@ -8,7 +8,7 @@ First announced only for OS X, at Apple's Worldwide Developers Conference in 200
 
 ## Overview
 
-Unity is an all-purpose game engine that provides a complete framework for creating 2D and 3D games using C#. 
+Unity is an all-purpose game engine that provides a complete framework for creating 2D and 3D games using C#. It was first released in 2005.
 
 Unity is particularly popular for mobile game development and much of their focus is on mobile platforms. Unity3D's 2D pipeline is a more recent addition to the engine, and is less mature than the 3D pipeline. Despite this Unity is an adaquate platform for developing 2D games even when compared to other dedicated 2D engines, particularly if you plan to release the game across multiple mobile devices.
 
@@ -31,10 +31,10 @@ Unity Technologies calls this bundling of a third-party SDK an "industry first".
 
 ![Unity Interface](https://github.com/pawelszpiczakowski/PublicStuff/raw/master/unityInterface.png)
 
-In picture above, you will notice five section:
-1) Section 1. <b>Scene View</b>: This is where you will be creating level for your game, scene or 3D project. All of your Game Objects will be placed and manipulated right here.
-2) Section 2. <b>Game View</b>: This is where you will see your results, how your level or scene looks like. You need to have a Camera on the scene to see how it looks like. Sometimes its called Camera View.
-3) Section 3. <b>Hierarchy</b>: This window will display all Game Objects placed directly on the scene. Basically everything that you see in Game View, needs to be listed here. This will include non-visual and visual game objects.
+In picture above, you will notice five sections:
+1) Section 1. <b>Scene View</b>: This is where you will be creating level for your game, scene or 3D project. All of your Game Objects will be placed and manipulated right here. 
+2) Section 2. <b>Game View</b>: This is where you will see your results, how your level or scene looks like. This is generated from a Camera within the scene, and it displays what the game would look like if you deployed it. Sometimes, it is called the Camera View.
+3) Section 3. <b>Hierarchy</b>: This window will display all Game Objects placed directly into the scene. Basically everything that you see in the Game View will be listed here. This will include non-visual and visual game objects. You can also use the Hierarchy to select and edit Game Objects.
 4) Section 4. <b>Project</b>: This is your project window. Basically it show whats inside Assets folder on your disk. Everything from Game Objects, Scripts, Textures, Folders, Models, Audio, Video and etc... will be accessible from this window.
 5) Section 5. <b>Inspector</b>: This panel will display different attibutes and properties of selected Game Objects. Depending on the selection, the appropriate attributes and components will be listed.
 
@@ -57,5 +57,7 @@ Unity is the engine used by Rust, Kerbal Space Program, and Cup Head.
 #### More Information: 
 
 [Unity's Official Website](https://unity3d.com/)
+
 [Wikipedia](https://en.wikipedia.org/wiki/Unity_(game_engine))
+
 [Official Unity Tutorials](https://unity3d.com/learn)
